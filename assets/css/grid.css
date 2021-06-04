@@ -57,6 +57,11 @@ html {
     max-width: 16.66667%;
 }
 
+.col-sm-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
 .col-sm-3 {
     flex: 0 0 25%;
     max-width: 25%;
@@ -113,6 +118,10 @@ html {
 
 .offset-sm-2 {
     margin-left: 16.66667%;
+}
+
+.offset-sm-2-4 {
+    margin-left: 20%;
 }
 
 .offset-sm-3 {
@@ -172,6 +181,7 @@ html {
 
     .col-md-1,
     .col-md-2,
+    .col-md-2-4,
     .col-md-3,
     .col-md-4,
     .col-md-5,
@@ -197,6 +207,11 @@ html {
     .col-md-2 {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+
+    .col-md-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
     }
     
     .col-md-3 {
@@ -256,6 +271,10 @@ html {
     .offset-md-2 {
         margin-left: 16.66667%;
     }
+
+    .offset-sm-2-4 {
+        margin-left: 20%;
+    }
     
     .offset-md-3 {
         margin-left: 25%;
@@ -300,13 +319,24 @@ html {
         margin-right: -12px;
     }
 
+    .row.sm-gutters {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
     .col {
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row.sm-gutters .col {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .col-lg-1,
     .col-lg-2,
+    .col-lg-2-4,
     .col-lg-3,
     .col-lg-4,
     .col-lg-5,
@@ -332,6 +362,11 @@ html {
     .col-lg-2 {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+
+    .col-lg-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
     }
     
     .col-lg-3 {
@@ -391,6 +426,10 @@ html {
     .offset-lg-2 {
         margin-left: 16.66667%;
     }
+
+    .offet-lg-2-4 {
+        margin-left: 20%;
+    }
     
     .offset-lg-3 {
         margin-left: 25%;
@@ -440,13 +479,24 @@ html {
         margin-right: -12px;
     }
 
+    .wide .row.sm-gutters {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
     .wide .col {
         padding-left: 12px;
         padding-right: 12px;
     }
 
+    .wide .row.sm-gutters .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
     .wide .col-lg-1,
     .wide .col-lg-2,
+    .wide .col-lg-2-4,
     .wide .col-lg-3,
     .wide .col-lg-4,
     .wide .col-lg-5,
@@ -472,6 +522,11 @@ html {
     .wide .col-lg-2 {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+
+    .wide .col-lg-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
     }
     
     .wide .col-lg-3 {
@@ -530,6 +585,10 @@ html {
     
     .wide .offset-lg-2 {
         margin-left: 16.66667%;
+    }
+    
+    .wide .offset-lg-2-4 {
+        margin-left: 20%;
     }
     
     .wide .offset-lg-3 {
